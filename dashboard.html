@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./dashboard.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font/css/materialdesignicons.min.css">
     <title>Admin Dashboard</title>
 </head>
 <body>
@@ -12,8 +13,10 @@
         <div class="header">
             <div class="search-section">
                 <div class="search-bar">
-                    <div class="search-logo"></div>
-                    <div class="search-input"></div>
+                    <button type="submit">
+                        <i class="mdi mdi-magnify"></i>
+                    </button>
+                    <input type="text" placeholder="Search...">
                 </div>
                 <div class="notif-section">
                     <div class="notif-logo"></div>
@@ -91,7 +94,7 @@
             </div>
         </div>
         
-        <div class="article">
+        <div class="main-content">
             <div class="project">
                 <p class="title">Your Projects</p>
                 <div class="project-card">
